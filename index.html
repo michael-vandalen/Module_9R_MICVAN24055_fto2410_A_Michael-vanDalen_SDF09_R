@@ -7,7 +7,7 @@
     <title>BlackJack ♠️♥️♦️♣️</title>
   </head>
   <body
-    class="font-serif bg-[url('./img/green_background.jpg')] bg-cover text-white font-bold"
+    class="font-serif bg-[url('./img/green_background.jpg')] bg-cover text-white font-bold text-[18px] md:text-[24px] lg:text-[30px]"
   >
     <div class="container">
       <div
@@ -15,12 +15,10 @@
       >
         <div class="grid text-center">
           <div>
-            <h1 class="text-[#daa520] text-6xl pb-10">Blackjack</h1>
+            <h1 class="text-[#daa520] text-5xl md:text-6xl pb-10">Blackjack</h1>
           </div>
 
-          <div
-            class="flex flex-col items-center gap-10 text-[25px] text-white py-3"
-          >
+          <div class="flex flex-col items-center gap-10 text-white py-3">
             <p id="message-el">Want to play a round?</p>
             <p id="cards-el">Cards:</p>
             <p id="sum-el">Sum:</p>
@@ -29,14 +27,14 @@
           <div class="flex flex-col justify-center pt-5 gap-3">
             <button
               onclick="startGame()"
-              class="bg-[#daa520] text-bg text-[25px] border-8 border-[#daa520] rounded px-9"
+              class="bg-[#daa520] text-bg text-[20px] border-8 border-[#daa520] rounded px-9 w-full"
             >
               START GAME
             </button>
 
             <button
               onclick="newCard()"
-              class="bg-[#daa520] text-bg text-[25px] border-8 border-[#daa520] rounded"
+              class="bg-[#daa520] text-bg text-[20px] border-8 border-[#daa520] rounded"
             >
               NEW CARD
             </button>

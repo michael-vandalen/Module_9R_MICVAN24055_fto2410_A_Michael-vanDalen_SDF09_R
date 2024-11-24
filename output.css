@@ -1818,6 +1818,16 @@ video {
   border-color: rgb(218 165 32 / var(--tw-border-opacity, 1));
 }
 
+.border-\[\#20da8d\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(32 218 141 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\#d6c165\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(214 193 101 / var(--tw-border-opacity, 1));
+}
+
 .bg-\[\#daa520\] {
   --tw-bg-opacity: 1;
   background-color: rgb(218 165 32 / var(--tw-bg-opacity, 1));
@@ -1826,6 +1836,16 @@ video {
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#20da8d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 218 141 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#d6c165\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 193 101 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\.\/img\/green_background\.jpg\'\)\] {
@@ -2052,6 +2072,28 @@ video {
   font-size: 25px;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2141,6 +2183,36 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#20da8d\] {
+  --tw-text-opacity: 1;
+  color: rgb(32 218 141 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#205bda\] {
+  --tw-text-opacity: 1;
+  color: rgb(32 91 218 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#9620da\] {
+  --tw-text-opacity: 1;
+  color: rgb(150 32 218 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#da8320\] {
+  --tw-text-opacity: 1;
+  color: rgb(218 131 32 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#462b0d\] {
+  --tw-text-opacity: 1;
+  color: rgb(70 43 13 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#ff8800\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 136 0 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -2570,6 +2642,23 @@ video {
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-\[24px\] {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-\[30px\] {
+    font-size: 30px;
   }
 }
 
